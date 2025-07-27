@@ -15,10 +15,10 @@ import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
 import {
-  FaHtml5, FaCss3Alt, FaJs, FaReact, FaBootstrap, FaGitAlt,
-  FaPython, FaCloudUploadAlt, FaGithub, FaLinkedin, FaInstagram, FaArrowUp,
+  FaHtml5, FaReact, FaGitAlt, FaPython, FaCloudUploadAlt, FaGithub, FaLinkedin, FaInstagram, FaArrowUp,
   FaMoon, FaSun, FaDownload
 } from 'react-icons/fa';
+
 
 function App() {
   const [theme, setTheme] = useState('dark');
@@ -321,11 +321,15 @@ function App() {
       <footer id="footer" className="footer">
         <p>Connect with me:</p>
         <div className="social-icons">
-          <a href="https://github.com/vishsuraj9546" target="_blank"><FaGithub /></a>
-          <a href="https://www.linkedin.com/in/suraj-kumar-6a2759283/" target="_blank"><FaLinkedin /></a>
-          <a href="https://www.instagram.com/rolex_suraj_9546/" target="_blank"><FaInstagram /></a>
+        <a href="https://github.com/vishsuraj9546" target="_blank" rel="noreferrer">
+   <FaGithub />
+</a>
+
+          <a href="https://www.linkedin.com/in/suraj-kumar-6a2759283/" target="_blank" rel="noreferrer"><FaLinkedin /></a>
+          <a href="https://www.instagram.com/rolex_suraj_9546/" target="_blank" rel="noreferrer"><FaInstagram /></a>
         </div>
-        <a href="#" className="back-to-top"><FaArrowUp /></a>
+      <a href="#top" className="back-to-top"><FaArrowUp /></a>
+
         <p>Email: sr6447868@gmail.com | Phone: 9546860925</p>
         <p>&copy; 2025 Suraj Kumar. All Rights Reserved.</p>
       </footer>
